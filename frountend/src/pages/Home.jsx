@@ -10,7 +10,7 @@ function Home({ search = "" }) {
 
   /* 🔥 FETCH DATA */
   useEffect(() => {
-    fetch("http://localhost:5000/medicines")
+    fetch("https://medassist-ai-healthcare-chatbot.onrender.com")
       .then(res => res.json())
       .then(data => {
         setMedicines(data);
