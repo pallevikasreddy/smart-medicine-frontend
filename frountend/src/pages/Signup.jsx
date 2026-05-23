@@ -9,7 +9,7 @@ function Signup() {
 
   const handleSignup = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/signup", {
+      const res = await axios.post("https://medassist-ai-healthcare-chatbot.onrender.com", {
         name,
         email,
         password
